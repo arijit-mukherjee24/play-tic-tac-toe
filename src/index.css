@@ -11,3 +11,167 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-body-day {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(252, 235, 235);
+  color: #131A28;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-body-night {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text-day {
+  color: brown;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+.header-text-night {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+
+.square {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 64px;
+  text-align: center;
+  color: #78e47d;
+  font-weight: bolder;
+  padding: 30px;
+}
+
+.fc-orange {
+  color: orange;
+}
+
+.fc-sky {
+  color: #1CDBF5;
+}
+
+.fw-600 {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.b-bottom-right {
+  border-right: 15px solid #78e47d;
+  border-bottom: 15px solid #78e47d;
+}
+
+.b-bottom {
+  border-bottom: 15px solid #78e47d;
+}
+
+.b-right {
+  border-right: 15px solid  #78e47d;
+}
+
+.reset-button {
+  width: max-content;
+  margin: 40px auto 10px auto;
+  background-color:#4c2e83;
+  color: rgb(235, 238, 76);
+}
+.day-button {
+  margin: 10px auto 10px auto;
+  border: 1px solid #121313;
+}
+.night-button {
+  color: white;
+  background-color: #131A28;
+  margin: 10px auto 10px auto;
+}
+.em, .em-svg {
+  height: 1.25em;
+  width: 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+.em-heart {
+  background-image: url(https://twemoji.maxcdn.com/2/72x72/2764.png);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-text-day {
+      color: brown;
+      font-size: 30px;
+      font-weight: bolder;
+      text-align: center;
+      margin: 60px 10px;
+  }
+
+  .header-text-night {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 60px 10px;
+  }
+
+  .square {
+      min-width: 80px;
+      min-height: 80px;
+      font-size: 32px;
+      font-weight: bolder;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .b-bottom-right {
+      border-right: 10px solid  #78e47d;
+      border-bottom: 10px solid  #78e47d;
+  }
+
+  .b-bottom {
+      border-bottom: 10px solid #78e47d;
+  }
+
+  .b-right {
+      border-right: 10px solid  #78e47d;
+  }
+
+  .reset-button {
+      width: max-content;
+      margin: 40px auto 10px auto;
+      background-color:#4c2e83;
+      color: rgb(235, 238, 76);
+  }
+}
